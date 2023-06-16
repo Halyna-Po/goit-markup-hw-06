@@ -69,6 +69,9 @@ ul {
 }
     
 
+
+
+
     /*---header-menu---*/
                   
 .header-boss{
@@ -973,4 +976,38 @@ border-color: #4D5AE5;
 .footer-btn-svg{
     margin-left: 16px;
 
+}
+
+
+428px,
+768px и 1158px
+
+ /*
+   
+    выводим карточки товаров по 1 в ряд
+  */
+
+@media (max-width:428px) {
+    .container {
+            width: 428px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0px auto;
+            align-items: center;
+    
+        }
+   
+}
+
+@media (max-width:768px) {
+    /*
+    ... правила для смартфонов ...
+    выводим карточки товаров по 1 в ряд
+  */
+}
+@media (max-width:1158px) {
+    /*
+    ... правила для смартфонов ...
+    выводим карточки товаров по 1 в ряд
+  */
 }
