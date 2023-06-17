@@ -1053,28 +1053,28 @@ border-color: #4D5AE5;
         justify-content: flex-end;
     }
     .boss-container{
-        width: 100%;
+        max-width: 100%;
     }
     .title-box{
-        width: 100%;
+    max-width: 100%;
     }
-           .work-strategy {
-            
+          .work-strategy {
                display:block;
+             max-block-size:100%;
    
            }
        .work-text{
         margin-bottom: 72px;
         display: block;
-        width: 23%;
+        max-width: 23%;
        
     
        }
        .done{
-        width: 100%;
+    max-width: 100%;
        }
        .foto-list{
-        width: 100%;
+        max-width: 100%;
             display: block;
 
        }
@@ -1103,21 +1103,21 @@ display: none;
 }
 
 .people-box{
-    width: 100%;
+    max-width: 100%;
  
     display: block;
-        width: 100%;
+        
     
 }
 .list-item{
 display: block;
-width:100%;
+max-width:100%;
 
 
 }
 .people{
 
-width: 100;
+max-width: 100%;
 display: block;
 
 
@@ -1130,9 +1130,66 @@ display: block;
 margin-left: auto;
     margin-right: auto;
 }
-.job-title{
+
+.clients-container{
+max-width: 100%;
+display: block;
    
 }
+
+
+.clients-list{
+    display: block;
+max-width: 100%;
+gap: 16px;
+margin-bottom: 72px;
+margin-left: auto;
+    margin-right: auto;
+
+}
+.footer-box{
+    display: block;
+    max-width: 100%;
+}
+.logofoot{
+    display: block;
+    max-width: 100%;
+    
+}
+.send-email{
+    display: block;
+    
+}
+.logo-paragraf-box{
+    display: block;
+    margin-top: 96px;
+    margin-right: auto;
+        margin-left: auto;
+    margin-bottom: 72px;
+    align-items: center;
+    max-width: 100%;
+}
+.social-box{
+    display: block;
+        
+        margin-right:auto;
+        margin-left: auto;
+        margin-bottom: 72px;
+        max-width: 100%;
+}
+.send{
+    display: block;
+    margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 96px;
+        max-width: 100%;
+        display: inline-block;
+}
+.email-footer{
+    margin-bottom: 16px;
+    max-width: 100%;
+}
+
 }
 @media (min-width:768px) {
 
