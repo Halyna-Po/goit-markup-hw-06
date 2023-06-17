@@ -977,37 +977,179 @@ border-color: #4D5AE5;
     margin-left: 16px;
 
 }
+/*------------------------- мобильне--меню----------------------*/
 
 
-428px,
-768px и 1158px
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 32px;
+    background-color: #3f51b5;
+    z-index: 999;
 
- /*
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    color: #fff;
+}
+
+.mobile-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mobile-menu .link {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+
+
+
+
+
+
+ /*-------Mobile First----------  */
+
+
+
+
+
+@media (min-width:428px) {
+
+.header-boss .container{
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .boss-container{
+        width: 100%;
+    }
+    .title-box{
+        width: 100%;
+    }
+           .work-strategy {
+            
+               display:block;
    
-    выводим карточки товаров по 1 в ряд
-  */
-
-@media (max-width:428px) {
-    .container {
-            width: 428px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin: 0px auto;
-            align-items: center;
+           }
+       .work-text{
+        margin-bottom: 72px;
+        display: block;
+        width: 23%;
+       
     
-        }
+       }
+       .done{
+        width: 100%;
+       }
+       .foto-list{
+        width: 100%;
+            display: block;
+
+       }
+       .icon{
+        display: none;
+       }
+      .only-foto{
+        display: none;
+      }
+
+ .logo{
+margin-right: 16px;
+line-height: 1.17;
+padding-top: 24px;
+    padding-bottom: 22px;
+
+}   
+
+.contact-group {
    
+display: none;
+
+}
+.menu-list{
+    display: none;
 }
 
-@media (max-width:768px) {
-    /*
-    ... правила для смартфонов ...
-    выводим карточки товаров по 1 в ряд
-  */
+.people-box{
+    width: 100%;
+ 
+    display: block;
+        width: 100%;
+    
 }
-@media (max-width:1158px) {
-    /*
-    ... правила для смартфонов ...
-    выводим карточки товаров по 1 в ряд
-  */
+.list-item{
+display: block;
+width:100%;
+
+
+}
+.people{
+
+width: 100;
+display: block;
+
+
+}
+.team-list{
+    width: 264px;
+   display: block;
+   margin-bottom: 72px;
+
+margin-left: auto;
+    margin-right: auto;
+}
+.job-title{
+   
+}
+}
+@media (min-width:768px) {
+
+    .contact-group {
+    display: block;
+    }
+        .menu-toggle {
+            display: none;
+        }
+                .menu-list {
+                    display:flex;
+                }
+        
+                
+}
+@media (min-width: 1158px) {
+    .contact-group {
+            display: flex;
+        }
 }
