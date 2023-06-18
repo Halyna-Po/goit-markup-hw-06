@@ -1044,7 +1044,7 @@ border-color: #4D5AE5;
 
 
 
-@media (min-width:428px) {
+@media (min-width:320px) {
 
 .header-boss .container{
         min-height: 80px;
@@ -1058,15 +1058,27 @@ border-color: #4D5AE5;
     .title-box{
     max-width: 100%;
     }
-          .work-strategy {
+        .work-strategy{
                display:block;
-             max-block-size:100%;
-   
+    max-width: 100%;
            }
+           .title-work{
+            max-width: 100%;
+           }
+           .header-navigation{
+            min-height: 70px;
+            max-width: 100%;
+           }
+           
        .work-text{
         margin-bottom: 72px;
         display: block;
-        max-width: 23%;
+        max-width: 100%;
+text-align: center;
+
+flex-direction: column;
+   
+    align-items: center;
        
     
        }
@@ -1123,7 +1135,7 @@ display: block;
 
 }
 .team-list{
-    width: 264px;
+   min-width:264px; 
    display: block;
    margin-bottom: 72px;
 
@@ -1137,27 +1149,59 @@ display: block;
    
 }
 
+.company{
+    flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
 
+}
 .clients-list{
-    display: block;
-max-width: 100%;
-gap: 16px;
-margin-bottom: 72px;
-margin-left: auto;
-    margin-right: auto;
+    flex-basis: calc((100% - 16px) / 2);
+    
+
 
 }
 .footer-box{
     display: block;
     max-width: 100%;
+    text-align: center;
 }
 .logofoot{
     display: block;
     max-width: 100%;
+    text-align: center; 
+}
+.footer-text{
+    display: block;
+        max-width: 100%;
+       text-align: left;
+        margin-left: 80px;
+        margin-right:80px;
+}
+
+   
+
+
+.network-foot{
+
+}
+
+.social-net-foot{
+  
     
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+            flex-wrap: wrap;
+            gap: 16px;
+       
 }
 .send-email{
     display: block;
+    text-align: center;
+    margin-right: auto;
+        margin-left: auto;
     
 }
 .logo-paragraf-box{
@@ -1168,14 +1212,18 @@ margin-left: auto;
     margin-bottom: 72px;
     align-items: center;
     max-width: 100%;
+    text-align: center;
+}
+
 }
 .social-box{
-    display: block;
+    
         
         margin-right:auto;
         margin-left: auto;
         margin-bottom: 72px;
         max-width: 100%;
+        text-align: center;
 }
 .send{
     display: block;
@@ -1184,10 +1232,23 @@ margin-left: auto;
         margin-bottom: 96px;
         max-width: 100%;
         display: inline-block;
+        text-align: center;
 }
 .email-footer{
+    display: block;
     margin-bottom: 16px;
-    max-width: 100%;
+     width: 398px;
+   text-align: left;
+margin-left: auto;
+margin-right: auto;
+}
+.subscr-btn{
+    display: block;
+    margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+            max-width: 100%;
+            text-align: center;
 }
 
 }
