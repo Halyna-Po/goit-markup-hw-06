@@ -52,11 +52,10 @@
                 </ul>
             </address>
 
-            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-                <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
+
+            <button class="menu-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="32" height="22" class="window-icon ">
+                    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
                 </svg>
             </button>
 
@@ -493,8 +492,8 @@
     <!------------------------- мобильне--меню---------------------->
 
     <div class="menu-container js-menu-container " id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-            <svg width="24" height="24" class="window-icon">
+        <button class="menu-btn-close js-close-menu">
+            <svg width="8" height="8" class="window-icon ">
                 <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
         </button>
@@ -506,39 +505,39 @@
 
         </ul>
 
-        <ul class="contact-group list">
+        <address class="address-mobil">
 
-            <li><a href="mailto:info@devstudio.com" class="contact-list list link">info@devstudio.com</a>
-            </li>
-            <li><a href="tel:+110001111111" class="contact-list list link">+11(000)111-11-11</a></li>
+            <ul class="contact-group-mobil list">
+                <li><a href="tel:+110001111111" class="contact-list-mobil use list link">+11(000)111-11-11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="contact-list-mobil list link">info@devstudio.com</a>
+                </li>
+            </ul>
+        </address>
 
-        </ul>
+        <div class="social-mobil">
 
 
-        <div class="social-box">
-
-
-            <ul class="social-net-foot">
-                <li class="network-foot"> <a href="https://www.instagram.com/" class="social-foot-link"><svg width="24"
-                            height="24" class="network-icon-foot">
+            <ul class="social-net-mobil">
+                <li class="network-mobil"> <a href="https://www.instagram.com/" class="social-mobil-link"><svg
+                            width="24" height="24" class="network-icon-mobil">
                             <use href="./images/icons.svg#icon-instagram-2"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="network-foot"> <a href="https://www.twitter.com/" class="social-foot-link"><svg width="24"
-                            height="24" class="network-icon-foot">
+                <li class="network-mobil"> <a href="https://www.twitter.com/" class="social-mobil-link"><svg width="24"
+                            height="24" class="network-icon-mobil">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="network-foot"> <a href="https://www.facebook.com/" class="social-foot-link"><svg width="24"
-                            height="24" class="network-icon-foot">
+                <li class="network-mobil"> <a href="https://www.facebook.com/" class="social-mobil-link"><svg width="24"
+                            height="24" class="network-icon-mobil">
                             <use href="./images/icons.svg#icon-facebook-1"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="network-foot"> <a href="https://www.linkedin.com/" class="social-foot-link"><svg width="24"
-                            height="24" class="network-icon-foot">
+                <li class="network-mobil"> <a href="https://www.linkedin.com/" class="social-mobil-link"><svg width="24"
+                            height="24" class="network-icon-mobil">
                             <use href="./images/icons.svg#icon-linkedin-1"></use>
                         </svg>
                     </a>
