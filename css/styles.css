@@ -980,6 +980,8 @@ border-color: #4D5AE5;
 /*------------------------- мобильне--меню----------------------*/
 
 
+
+
 .menu-container {
     position: fixed;
     top: 0;
@@ -987,7 +989,7 @@ border-color: #4D5AE5;
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background-color:#FFFFFF;
     z-index: 999;
 
     transform: translateX(100%);
@@ -1000,8 +1002,8 @@ border-color: #4D5AE5;
 
 .menu-container .menu-toggle {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 16px;
+    right: 16px;
     color: #fff;
 }
 
@@ -1011,30 +1013,28 @@ border-color: #4D5AE5;
     list-style: none;
 }
 
-.mobile-menu .link {
+.mobile-menu  {
     display: block;
     padding: 10px;
     color: #fff;
     text-decoration: none;
 }
-.menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    border-radius: 50%;
-    outline: none;
+.mobile-studio{
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    display: block;
+    margin-top: 80px;
+    margin-left: 40px;
+    min-width: 100%;
+    text-decoration: none;
 }
-
-
-
+.blu{
+    color:var(--main-button-color);
+}
 
 
 
