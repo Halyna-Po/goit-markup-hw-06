@@ -1174,9 +1174,9 @@ font-weight: 700;
 
 
 
- @media  (min-width:320px) {
+ @media screen and  (min-width:428px) {
 
-/*-- .header-boss .container{
+.header-boss .container{
         min-height: 80px;
         display: flex;
         align-items: center;
@@ -1187,10 +1187,9 @@ font-weight: 700;
     }
     .title-box{
     max-width: 100%;
-    }--  */
-    .work{
-        display:block;
     }
+
+    
            .title-work{
             max-width: 100%;
            }
