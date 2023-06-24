@@ -1353,6 +1353,11 @@ font-weight: 700;
             margin-bottom: 72px;
             height: 88px;
         }
+
+        .blu :focus{
+            color: var(--main-background-color);
+
+        }
  }
 
  
