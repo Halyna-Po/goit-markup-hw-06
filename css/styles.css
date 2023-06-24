@@ -1549,6 +1549,7 @@ display: flex;
 margin-left: 0px;
 margin-right: 0px;
 margin-bottom: 56px;
+width: calc((100% - 24px) / 2);
 
 }
 .company{
@@ -1676,6 +1677,9 @@ gap: 24px;
  
     text-align: center;
    
+   }
+   .team-list{
+    width: calc((100% - 72px) / 4);
    }
   
 
