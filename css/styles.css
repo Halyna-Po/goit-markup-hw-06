@@ -181,7 +181,7 @@ gap: 40px
     padding-top: 112px;
      padding-bottom: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobil\ \(1\).jpg);
-    max-width: 1440px;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1346,6 +1346,20 @@ font-weight: 700;
 
 
  @media screen and  (min-width:428px){
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+
+            background: var(--main-text-color);
+            padding-top: 112px;
+            padding-bottom: 112px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobil-x2.jpg);
+
+        }
+
+
     .clients-list {
             display: flex;
             width: calc((100% - 16px) / 2);
@@ -1421,7 +1435,7 @@ font-weight: 700;
     padding-top: 112px;
     padding-bottom: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-planshet\ \(1\).jpg);
-    max-width: 1440px;
+    max-width: 768px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1434,7 +1448,7 @@ font-weight: 700;
     background: var(--main-text-color);
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-planshet\ \(1\).jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-planshet-x2.jpg);
 
 }
 .logofoot{
@@ -1597,13 +1611,24 @@ justify-content: center;}
         padding-left: 15px;
         padding-right: 15px;
     }
+    .logo{
+        margin-left: 141px;
+        margin-right: auto;
+    }
+    .contact-list{
+        gap: 40px;
+        
+    }
+    .group-list{
+        margin-right: auto;
+    }
 .hero {
 
     background: var(--main-text-color);
     padding-top: 112px;
     padding-bottom: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    max-width: 1440px;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1611,8 +1636,22 @@ justify-content: center;}
     margin-right: auto;
 
 }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+
+        background: var(--main-text-color);
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-desktop-x2.jpg);
+
+    }
  .contact-group {
             display: flex;
+            margin-right: 141px;
+            margin-left: auto;
         }
       .work-strategy{
         flex-wrap: nowrap;
@@ -1620,6 +1659,10 @@ justify-content: center;}
         margin-right: 140px;
             margin-left: 140px;
             gap: 24px;
+      }
+      .people{
+        padding-top: 120px;
+        padding-bottom: 120px;
       }
       .work{padding-top: 120px;
     padding-bottom: 120px;}
