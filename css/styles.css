@@ -194,11 +194,10 @@ gap: 40px
 
 
 
-
 .hero-title {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
     text-align: center;
@@ -265,10 +264,13 @@ button{cursor: pointer;
 
 /*------------------------------*/
 
+
+
+
 .title-list {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
     
@@ -1451,6 +1453,26 @@ font-weight: 700;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-planshet-x2.jpg);
 
 }
+
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*------ширина текста заголовка------*/
+    max-width: 496px;
+    margin-bottom: 36px;
+
+}
+
+
+
+
 .logofoot{
     display: block;
 margin-left: 108px;
@@ -1636,6 +1658,45 @@ justify-content: center;}
     margin-right: auto;
 
 }
+
+
+
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*------ширина текста заголовка------*/
+    max-width: 496px;
+    margin-bottom: 48px;
+
+}
+
+.title-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    /*----визначення відступу між заголовком і параграфом*/
+    margin-bottom: 8px;
+    text-align: center;
+
+
+}
+
+
+
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
