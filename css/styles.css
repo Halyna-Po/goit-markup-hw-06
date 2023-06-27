@@ -2053,9 +2053,18 @@ gap: 24px;
         margin-right: 0px;
      
     }
-    .social-net-foot{
-        margin-left: 0px;
-    }
+
+.social-net-foot {
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-bottom: 72px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+margin-left: 0px;
+margin-bottom: 0px;}
+
+   
 
     .social-foot{
         display: flex;
