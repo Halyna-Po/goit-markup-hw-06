@@ -1866,14 +1866,14 @@ justify-content: center;}
                         max-width: 1158px;
                 
                     }
+            .container {
+              width: 1158px;
+             padding-left: 15px;
+             padding-right: 15px;
+             margin: 0px auto;
+            align-items: center;}
 
 
-    .container {
-            width: 1128px;
-            padding-left: 15px;
-            padding-right: 15px;
-                margin: 0px auto;
-        }
 /*------картинка---*/
 
     .logo{
@@ -2103,7 +2103,7 @@ gap: 24px;
 
 .list-item {
 display: flex;
-    flex-wrap: nowrap;
+ 
     gap: 24px;
     
 }
