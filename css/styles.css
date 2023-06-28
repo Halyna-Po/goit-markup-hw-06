@@ -536,7 +536,7 @@ margin-right: 120px;
 .social-box {
 
 
-    margin-right: auto;
+    /*-  margin-right: auto;*/
     margin-left: auto;
     margin-bottom: 72px;
     max-width: 100%;
@@ -558,7 +558,7 @@ margin-bottom: 16px;
 .social-net-foot {
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 72px;
+/* margin-bottom: 72px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -744,8 +744,8 @@ img{
 }
 /*-----друга-секция--*/
 .work{
-margin-top: 96px;
-margin-bottom: 24px;
+padding-top: 96px;
+padding-bottom: 24px;
  
 }
   .work-strategy{
@@ -1210,7 +1210,7 @@ border: none;
     
 }
 .contact-mobil-won{
-margin-bottom: 60px;
+margin-bottom: 40px;
 }
 .contact-mobil{
     margin-bottom: 40px;
@@ -1335,7 +1335,7 @@ color: #4D5AE5;
 .mobile-studio{
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
@@ -1358,7 +1358,7 @@ font-weight: 700;
     .address-net{
             margin-top: auto;}
     .container {
-            width: 290px;
+           /* width: 290px;*/
             padding-left: 15px;
             padding-right: 15px;
           
@@ -1382,7 +1382,7 @@ font-weight: 700;
          }
 
         .email-footer {
-            width: 260px;
+            width: 268px;
             height: 40px;
             border: 1px solid #ffffff;
             background-color: transparent;
@@ -1398,10 +1398,15 @@ font-weight: 700;
         padding-bottom: 0px;
        
     }
+    .clients-container{
+        max-width: 290px;
+    }
 
 .footer-text{
-    margin-left: 0px;
-    margin-right: 0px;
+    
+width: 268px;
+    margin-left: auto;
+   margin-right: auto;
 }
 
 .hero {
@@ -1436,15 +1441,18 @@ font-weight: 700;
         }
                 .contact-list-tel {
                     font-weight: 700;
-                    font-size: 28px;
+                    font-size: 26px;
                     line-height: 1.11;
                     letter-spacing: 0.02em;
                     text-transform: capitalize;
                     color: #4D5AE5;
                 }
-                                        .social-net-mobil {
-                                        display: flex;
-                                            gap: 30px;}
+                                .logo-paragraf-box {
+                                    text-align: center;
+                                }
+       .social-net-mobil {
+       display: flex;
+       gap: 30px;}
                         
         .work-text {
          font-size: 20px;
@@ -1456,7 +1464,7 @@ font-weight: 700;
     margin-bottom: 0px;
 }
 .work{
-    margin-bottom: 96px;
+    padding-bottom: 96px;
 }
 
 
@@ -1475,6 +1483,15 @@ font-weight: 700;
 }
 
  @media screen and  (min-width:428px){
+
+.footer-text {
+ 
+        width: 268px;
+    }
+.clients-container{
+    max-width: 426px;
+}
+
 
     .list-item{
         display: flex;
@@ -1528,7 +1545,7 @@ font-weight: 700;
 
         }}
         .container {
-            width: 294px;
+           width: 428px;
             padding-left: 15px;
             padding-right: 15px;
             align-items: center;
@@ -1574,8 +1591,8 @@ font-weight: 700;
 @media (min-width:768px) {
 
 .work {
-        margin-top: 96px;
-        margin-bottom: 96px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
 
@@ -2014,14 +2031,14 @@ text-align: left;
         max-width: 100%;
             display: block;
       }
-               .work{ margin-top: 120px;
-                 margin-bottom: 120px;}
-                                 .work-text {
-                                     font-size: 20px;
-                                     line-height: 1.2;
-                                     letter-spacing: 0.02em;
-                                     color: var(--main-text-color);
-                          padding-bottom: 0px;}
+ .work{ padding-top: 120px;
+     padding-bottom: 120px;}
+ .work-text {
+    font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    padding-bottom: 0px;}
       .icon{
         display: flex;
       }
