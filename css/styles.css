@@ -1509,7 +1509,9 @@ width: 268px;
             padding-top: 96px;
                 padding-bottom: 96px;
             max-width: 100%;
-            display: block;}
+            display: block;
+            width: 296px;
+        }
     .social-net-mobil {
             display: flex;
             gap: 56px;
@@ -1620,8 +1622,9 @@ width: 268px;
     background-color: var(--main-logo-color);
 padding-top: 96px;
     padding-bottom: 96px;
-    max-width: 100%;
+
     display: block;
+width: 738px;
 }
 
 
@@ -1637,7 +1640,7 @@ padding-top: 96px;
         
     }
          .container {
-             width: 738px;
+             width: 768px;
              align-items: center;
             padding-left: 15px;
                 padding-right: 15px;
