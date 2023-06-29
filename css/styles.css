@@ -1358,7 +1358,7 @@ font-weight: 700;
     .address-net{
             margin-top: auto;}
     .container {
-           /* width: 290px;*/
+            width: 320px;
             padding-left: 15px;
             padding-right: 15px;
           
@@ -1399,7 +1399,7 @@ font-weight: 700;
        
     }
     .clients-container{
-        max-width: 290px;
+        width: 290px;
     }
 
 .footer-text{
@@ -1510,7 +1510,7 @@ width: 268px;
                 padding-bottom: 96px;
             max-width: 100%;
             display: block;
-            width: 296px;
+            
         }
     .social-net-mobil {
             display: flex;
@@ -1576,7 +1576,7 @@ width: 268px;
             display: flex;
             width: calc((100% - 16px) / 2);
             padding-bottom: 0px;
-            
+            width: 190px;
             height: 88px;
         }
 .mobile-studio:focus{
@@ -1591,6 +1591,7 @@ width: 268px;
  }
  
 @media (min-width:768px) {
+    .title-work{ width: 714px;}
 
 .work {
         padding-top: 96px;
@@ -1624,7 +1625,7 @@ padding-top: 96px;
     padding-bottom: 96px;
 
     display: block;
-width: 738px;
+
 }
 
 
@@ -1641,11 +1642,12 @@ width: 738px;
     }
          .container {
              width: 768px;
-             align-items: center;
+            align-items: center;
             padding-left: 15px;
                 padding-right: 15px;
+                    
 
-         }
+     }
 
     .header-menu {
         font-weight: 500;
