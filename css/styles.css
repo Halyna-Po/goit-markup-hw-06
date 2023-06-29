@@ -1968,6 +1968,9 @@ justify-content: center;}
     margin-bottom: 48px;
 
 }
+.title-work{
+    width: 1056px;
+}
 
 .title-list {
    display: flex;
